@@ -1,1 +1,30 @@
-readme
+# Saturn
+
+Marketing website for **Saturn** — a fast, elegant RSS reader for iPhone, iPad, and Mac.
+
+Built with [Next.js](https://nextjs.org) (App Router) and deployed on [Vercel](https://vercel.com).
+
+## Pages
+
+- `/` — Hero section with the "Download on the App Store" button and feature highlights
+- `/privacy` — Privacy Policy
+- `/terms` — Terms of Service
+
+## Development
+
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build
+```
+
+## Configuration
+
+Site-wide values (app name, App Store URL, contact email, legal "last updated"
+date) live in [`lib/site.ts`](./lib/site.ts). Update the placeholder
+`appStoreUrl` there once the app is live on the App Store.
+
+## Deployment
+
+This repo is linked to a Vercel project. Vercel auto-detects Next.js — no extra
+configuration is needed. Pushes to the connected branch trigger a deployment.
