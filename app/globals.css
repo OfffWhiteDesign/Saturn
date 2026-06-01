@@ -176,11 +176,18 @@ a {
   color: var(--text-muted);
 }
 
-/* ---------- Planet art ---------- */
-.planet-wrap {
-  display: flex;
-  justify-content: center;
+/* ---------- Product shot ---------- */
+.product-shot {
   margin-top: 64px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+}
+.product-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* ---------- Features ---------- */
