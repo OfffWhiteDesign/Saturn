@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AppStoreButton } from "@/components/AppStoreButton";
+import { ProductMarquee } from "@/components/ProductMarquee";
 import { site } from "@/lib/site";
 
 const features = [
@@ -38,17 +39,8 @@ export default function Home() {
           <p className="lead">{site.description}</p>
           <AppStoreButton />
           <p className="platforms">Designed for iPhone · iPad · Mac</p>
-          <div className="product-shot">
-            <Image
-              src="/Mac-7.png"
-              alt={`${site.name} running on Mac, iPad, and iPhone, synced with iCloud`}
-              width={2880}
-              height={1800}
-              sizes="(max-width: 980px) 100vw, 980px"
-              priority
-            />
-          </div>
         </div>
+        <ProductMarquee />
       </section>
 
       <section className="features">
