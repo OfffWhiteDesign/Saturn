@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { AppStoreButton } from "@/components/AppStoreButton";
 import { site } from "@/lib/site";
 
@@ -25,6 +26,14 @@ export default function Home() {
       <section className="hero">
         <div className="container">
           <span className="eyebrow">RSS, reimagined</span>
+          <Image
+            className="app-icon"
+            src="/Saturn-iOS-Default-1024x1024@1x.png"
+            alt={`${site.name} app icon`}
+            width={120}
+            height={120}
+            priority
+          />
           <h1>{site.tagline}</h1>
           <p className="lead">{site.description}</p>
           <AppStoreButton />
