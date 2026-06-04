@@ -4,6 +4,8 @@ export const site = {
   tagline: "Your feeds, beautifully in orbit.",
   description:
     "Saturn is a fast, elegant RSS reader for iPhone, iPad, and Mac. Follow your favorite sites, blogs, and podcasts — all in one calm, distraction-free place.",
+  // Canonical site URL, used for the sitemap and robots.txt.
+  url: "https://saturn-rss-reader.vercel.app",
   // App Store links. The button on the home page picks the right one based on
   // the visitor's platform (Mac vs iPhone/iPad), falling back to `ios`.
   appStore: {
