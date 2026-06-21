@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { AppStoreBadge } from "@/components/AppStoreBadge";
 import { appstract } from "@/lib/site";
@@ -71,6 +72,14 @@ export default function AppStractPage() {
       <section className="hero hero-appstract">
         <div className="container">
           <span className="eyebrow">App Store Asset Toolkit</span>
+          <Image
+            className="app-icon"
+            src={appstract.icon}
+            alt={`${appstract.name} app icon`}
+            width={120}
+            height={120}
+            priority
+          />
           <h1>{appstract.tagline}</h1>
           <p className="lead">{appstract.description}</p>
           {appstract.appStoreUrl ? (

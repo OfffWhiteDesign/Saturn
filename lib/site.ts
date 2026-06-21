@@ -23,6 +23,8 @@ export const site = {
 // Second app hosted on this site: AppStract.
 export const appstract = {
   name: "AppStract",
+  // App icon shown above the hero heading. Lives in /public.
+  icon: "/AppStract-Icon-1024.png",
   fullName: "AppStract — App Store Asset Downloader & Design Explorer",
   tagline: "Extract, export, and explore App Store design assets in high fidelity.",
   description:
