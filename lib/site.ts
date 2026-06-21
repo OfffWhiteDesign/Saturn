@@ -19,3 +19,18 @@ export const site = {
   // Used for legal pages "last updated" dates.
   lastUpdated: "June 1, 2026",
 };
+
+// Second app hosted on this site: AppStract.
+export const appstract = {
+  name: "AppStract",
+  fullName: "AppStract — App Store Asset Downloader & Design Explorer",
+  tagline: "Extract, export, and explore App Store design assets in high fidelity.",
+  description:
+    "AppStract is the ultimate utility for mobile developers, UI/UX designers, app marketers, and Apple enthusiasts. Browse the App Store catalog, organize your favorite listings, and download high-resolution app icons and screenshots directly to your device or computer.",
+  // TODO: add the App Store link once AppStract is live.
+  // While empty, the download button shows a "coming soon" state.
+  appStoreUrl: "",
+  platforms: "Designed for iPad · Apple Silicon Mac",
+  lastUpdated: "June 4, 2026",
+};
+

@@ -11,8 +11,9 @@ export function Header() {
           {site.name}
         </Link>
         <nav className="nav-links">
-          <Link href="/privacy">Privacy</Link>
-          <Link href="/terms">Terms</Link>
+          <Link href="/appstract">AppStract</Link>
+          <Link href="/privacy" className="nav-legal">Privacy</Link>
+          <Link href="/terms" className="nav-legal">Terms</Link>
         </nav>
       </div>
     </header>
